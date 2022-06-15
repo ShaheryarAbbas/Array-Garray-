@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Array</title>
+</head>
+<body>
+    <script>
+       var a= ["Salman",23,"Sohail",35,"Ahmed",20]
+            document.write(a[0] + " " +a[1] + " " +a[2] + " " +a[3] + " " +a[4] + " " +a[5] + "<br>")
+            // Array in while loop and for loop
+           var ar = ["Zeeshan",18,"Sami",22,"Nasir",30];
+        for(var f=0;f<6;f++){
+            document.write(ar[f] + " ");
+        }
+        document.write("<br>")
+        var p=0;
+        while(p<6){
+            document.write(ar[p] + " ");
+            p++;
+        }
+        document.write("<br>");
+        // 2d Array
+    var ary = [["Kamran", 20, "kami@gmail.com"],
+        ["Hassan", 25, "hassan@gmail.com"],
+        ["Sanam", 20, "sanam@gmail.com"]
+    ]
+    for (var i=0; i<ary.length;i++){
+        for(var j=0; j<ary[i].length;j++){
+            document.write(ary[i][j] + " ");
+        }
+        document.write("<br>");
+    }
+    var ray = [["Sana",20, "sana@gmail.com"],
+    ["Ateeq",25, "Ateeq@gmil.com"],
+    ["Ayesha",24, "Ayesha@gmail.com"],
+]
+    for(var h=0;h<ray.length;h++){
+        for(var w=0;w<ray[h].length;w++){
+            document.write(ray[h][w] + " ");
+        }
+        document.write("<br>")
+    }
+    var frm = [["Name","Age","Email","Phone"],
+    ["Farah",32,"FarahKhalil@gmail.com",92331234567],
+    ["Yasir",23,"YasirHussain@gmail.com",92045678910],
+    ["Neha",26,"NehaMalik@gmail.com",92312345678],
+    ["Shaheryar",28,"Shaheryaraptech1@gmail.com",92334942040]
+    ]
+    for(var y=0; y<frm.length;y++){
+        for(var t=0; t<frm[y].length;t++){
+            document.write(frm[y][t] + " ")
+        }
+        document.write("<br>")
+    }
+    </script>
+</body>
+</html>
